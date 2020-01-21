@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <h2>Dark Apps</h2>
+        <h1>Dark Apps</h1>
         <p className="social">
           <a
             href="https://github.com/christianmurillo/dark-apps"
