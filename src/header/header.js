@@ -14,7 +14,7 @@ class Header extends React.Component {
           >
             <i className="fa fa-github fa-lg" aria-hidden="true" />
           </a>
-          &nbsp;
+          &nbsp; &nbsp;
           <a
             href="https://www.linkedin.com/in/christian-murillo-1353b098/"
             rel="noopener noreferrer"

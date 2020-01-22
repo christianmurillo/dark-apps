@@ -5,13 +5,17 @@ class Card extends React.Component {
   render() {
     return (
       <div className="card">
-        <div className="card-icon">
-          <i class="fa fa-clock-o" aria-hidden="true" />
-        </div>
-        <div className="card-desc">
-          <h2>INTERVAL TIMER</h2>
-          <p>Programmable interval timer for interval based workouts.</p>
-        </div>
+        <a href={this.props.appUrl} rel="noopener noreferrer" target="_blank">
+          <div className="card-icon">
+            <br />
+            <br />
+            <i className={this.props.appFaIcon} aria-hidden="true" />
+          </div>
+          <div className="card-desc">
+            <h2>{this.props.appName}</h2>
+            <p>{this.props.appDesc}</p>
+          </div>
+        </a>
       </div>
     );
   }
