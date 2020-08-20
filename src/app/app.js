@@ -14,7 +14,7 @@ class App extends React.Component {
       },
       {
         appName: "CALCULATOR",
-        appDesc: "Standard calculator (Coming soon).",
+        appDesc: "Standard calculator.",
         appFaIcon: "fa fa-calculator fa-5x",
         appUrl: "https://d0rsq.csb.app/"
       }
